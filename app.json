@@ -1,8 +1,27 @@
 {
   "pages": [
-    "pages/handle/handle"
-
+    "pages/handle/handle",
+    "pages/index/index",
+    "pages/photos/photos"
   ],
+    "tabBar": {
+      "list": [
+        {
+          "text": "主界面",
+          "pagePath": "pages/handle/handle",
+          "iconPath": "pages/images/first.png",
+          "selectedIconPath": "pages/images/first-2.png"
+        },
+        {
+          "text": "图片",
+          "pagePath": "pages/index/index",
+          "iconPath": "pages/images/second-1.png",
+          "selectedIconPath": "pages/images/second-2.png"
+        }
+      ],
+      "color": "#000",
+      "selectedColor": "#00f"
+    },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

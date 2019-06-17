@@ -1,0 +1,15 @@
+.nav-default
+{
+  color: blue;
+}
+.nav-hover
+{
+  color: red;
+}
+.img1{
+  color:  rgb(34, 238, 211);
+  height: 275.rpx;
+  width: 275.rpx;
+    border-radius: 50%;
+
+}

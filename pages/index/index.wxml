@@ -1,0 +1,7 @@
+<view class='container'>
+<image class = 'img1'src="/pages/images/1.jpg"></image>
+<text class='indextext1'>欢迎使用图片上传系统</text>
+<text bindtap='in1' class='indextext2'>点击上传图片</text>
+<image wx:for="{{imagepath}}" src='{{imagepath[index]}}'>
+</image>
+</view>

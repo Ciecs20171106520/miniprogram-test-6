@@ -1,0 +1,10 @@
+<view class='container'>
+<image class = 'img1'src="/pages/images/1.jpg"></image>
+<view>
+<text class='indextext1'>欢迎使用图片上传系统</text>
+
+<navigator open-type='switchTab'   url="/pages/index/index"
+ hover-class='nav-hover' class='nav-default'>
+进入图片上传界面111111</navigator>
+</view>
+</view>
