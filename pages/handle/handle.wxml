@@ -5,6 +5,6 @@
 
 <navigator open-type='switchTab'   url="/pages/index/index"
  hover-class='nav-hover' class='nav-default'>
-进入图片上传界面111111</navigator>
+进入图片上传界面</navigator>
 </view>
 </view>
