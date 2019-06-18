@@ -1,0 +1,5 @@
+.img1{
+  height: 275.rpx;
+  width: 275.rpx;
+  border-radius: 50%;
+}

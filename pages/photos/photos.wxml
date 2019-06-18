@@ -1,0 +1,5 @@
+<view class='container'>
+<image class = 'img1 'src="/pages/images/1.jpg"></image>
+<image class='img1' wx:for="{{imagepath}}" src='{{imagepath[index]}}'>
+</image>
+</view>
