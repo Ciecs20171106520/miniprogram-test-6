@@ -1,9 +1,13 @@
 {
-  "pages": [
-    "pages/maps/maps",
+  "pages": [ 
+    
+    "pages/handle/handle",
     "pages/index/index",
     "pages/photos/photos",
-    "pages/handle/handle"
+    "pages/gpss/gpss",
+    "pages/maps/maps"
+    
+    
   ],
   "tabBar": {
     "list": [
@@ -18,6 +22,12 @@
         "pagePath": "pages/index/index",
         "iconPath": "pages/images/second-1.png",
         "selectedIconPath": "pages/images/second-2.png"
+      },
+      {
+      "text": "gps",
+      "pagePath": "pages/gpss/gpss",
+      "iconPath": "pages/images/33333.jpg",
+      "selectedIconPath": "pages/images/333.jpg"
       }
     ],
     "color": "#000",
