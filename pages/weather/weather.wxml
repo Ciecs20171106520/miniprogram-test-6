@@ -1,0 +1,11 @@
+<view class="weather"> 
+  <text >{{weatherData}}</text> 
+  <view><text>\n</text></view>
+ <view  wx:key="{{index}}" wx:for="{{forecast}}"> 
+      <view class='detail date'>日期 :{{item.date}}</view>
+      <view class='detail'>天气 :{{item.weather}}</view>
+      <view class='detail'>温度 :{{item.temperature}}</view>
+      <view class='detail'>风力 :{{item.wind}}</view>
+      <view><text>\n</text></view>
+    </view>
+</view>

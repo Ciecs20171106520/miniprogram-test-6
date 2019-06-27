@@ -1,5 +1,10 @@
 <view class='container'>
-<image class = 'img1 'src="/pages/images/1.jpg"></image>
+<scroll-view scroll-y="true" style="height: 450px">
 <image class='img1' wx:for="{{imagepath}}" src='{{imagepath[index]}}'>
 </image>
+</scroll-view>
+<view>
+<navigator   open-type='switchTab'   url="/pages/handle/handle"
+ hover-class='nav-hover' class='nav-default'>点击返回</navigator>
+ </view>
 </view>
