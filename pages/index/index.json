@@ -1,3 +1,6 @@
 {
-  
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "图片上传展示",
+    "navigationBarTextStyle": "black"
 }

@@ -1,15 +1,21 @@
 <view class='container'>
 <image class = 'img1'src="/pages/images/1.jpg"></image>
 <view>
-<text class='indextext1'>欢迎使用图片上传系统</text>
+<text class='indextext1'>欢迎使用图片上传功能</text>
 <navigator open-type='switchTab'   url="/pages/index/index"
  hover-class='nav-hover' class='nav-default'>
  点击进入图片上传界面</navigator>
 </view>
 <view>
-<text class='indextext1'>欢迎使用gps上传系统</text>
+<text class='indextext1'>欢迎使用gps上传功能</text>
 <navigator open-type='switchTab'   url="/pages/gpss/gpss"
  hover-class='nav-hover' class='nav-default'>
  点击进入gps上传界面</navigator>
+</view>
+<view>
+<text class='indextext1'>欢迎使用本地天气查询功能</text>
+<navigator open-type='switchTab'   url="/pages/weather/weather"
+ hover-class='nav-hover' class='nav-default'>
+ 点击进入本地天气情况界面</navigator>
 </view>
 </view>

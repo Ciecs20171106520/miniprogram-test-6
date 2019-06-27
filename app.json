@@ -29,6 +29,12 @@
       "pagePath": "pages/gpss/gpss",
       "iconPath": "pages/images/33333.jpg",
       "selectedIconPath": "pages/images/333.jpg"
+      },
+       {
+        "text": "天气",
+        "pagePath": "pages/weather/weather",
+        "iconPath": "pages/images/444.jpg",
+        "selectedIconPath": "pages/images/44444.jpg"
       }
     ],
     "color": "#000",

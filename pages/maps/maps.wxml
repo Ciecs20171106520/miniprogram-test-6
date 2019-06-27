@@ -10,10 +10,10 @@
       show-location
     ></map>
   </view>
-  <view class="btn-area">
-    <button bindtap="getCenterLocation" class="page-body-button" type="primary">获取位置</button>
-    <button bindtap="moveToLocation" class="page-body-button" type="primary">移动位置</button>
-    <button bindtap="translateMarker" class="page-body-button" type="primary">移动标注</button>
-    <button bindtap="includePoints" class="page-body-button" type="primary">缩放视野展示所有经纬度</button>
-  </view>
+  <view >
+    <button bindtap="getCenterLocation" type="primary">获取位置</button>
+    <text hidden="{{ttt}}">当前经度:{{aa}}当前维度:{{bb}}</text>
+    <button bindtap="moveToLocation"  type="primary">移动到当前位置</button>
+    <text>\n</text>
+    <button bindtap="translateMarker" type="primary">移动标注</button>  </view>
 </view>
