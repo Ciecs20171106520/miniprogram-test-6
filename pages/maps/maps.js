@@ -53,7 +53,7 @@ Page({
         console.log(res.latitude)
         that.setData({
           aa: res.longitude,
-          bb: res.longitude,
+          bb: res.latitude,
         })
       }
     })
