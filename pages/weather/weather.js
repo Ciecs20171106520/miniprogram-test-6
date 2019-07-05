@@ -9,7 +9,7 @@ Page({
     var that = this;
     var BMap = new bmap.BMapWX({
       ak: 'Y0hyzEiTbWHoGu2OBW3BKQczhyXFZXFu'
-    });
+      });
     var fail = function (data) {
       console.log(data)
     };
