@@ -6,6 +6,7 @@
     "pages/photos/photos",
     "pages/gpss/gpss",
     "pages/weather/weather",
+    "pages/texts/texts",
     "pages/maps/maps"
     
     
@@ -30,12 +31,19 @@
       "iconPath": "pages/images/33333.jpg",
       "selectedIconPath": "pages/images/333.jpg"
       },
-       {
+      {
         "text": "天气",
         "pagePath": "pages/weather/weather",
         "iconPath": "pages/images/444.jpg",
         "selectedIconPath": "pages/images/44444.jpg"
+      },
+      {
+        "text": "备忘录",
+        "pagePath": "pages/texts/texts",
+        "iconPath": "pages/images/555.jpg",
+        "selectedIconPath": "pages/images/55555.jpg"
       }
+       
     ],
     "color": "#000",
     "selectedColor": "#00f"
@@ -51,5 +59,7 @@
       "desc": "已为您提供最近的服务信息"
     }
   },
+  
+
   "sitemapLocation": "sitemap.json"
 }

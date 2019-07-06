@@ -13,5 +13,9 @@
   <view >
     <button bindtap="moveToLocation"  type="primary">移动到当前位置</button>
     <text>\n</text>
-    <button bindtap="translateMarker" type="primary">移动标注</button>  </view>
+    <button bindtap="translateMarker" type="primary">移动标注</button>  
+    <text>\n</text>
+    <button bindtap="getCenterLocation" type="primary">显示经纬度</button>
+    <text>当前经度为:{{bb}} 当前维度为{{aa}}</text>
+    </view>
 </view>

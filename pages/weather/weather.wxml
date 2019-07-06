@@ -1,8 +1,15 @@
 <view class="weather"> 
-  <text >{{weatherData}}</text> 
+  <text >{{weatherData}}</text>
+  <view wx:key="{{index}}" wx:for="{{yifu}}"> 
+  <view>穿衣指数:{{item.des}}</view>
+  <view>洗车指数:{{item.tipt}}</view>
+  <view>感冒指数:{{item.title}}</view>
+  <view>运动指数:{{item.zs}}</view>
+  </view>
   <view><text>\n</text></view>
+  <view>今后三天的天气预报</view>
  <view  wx:key="{{index}}" wx:for="{{forecast}}"> 
-      <view class='detail date'>日期 :{{item.date}}</view>
+      <view class='detail '>日期 :{{item.date}}</view>
       <view class='detail'>天气 :{{item.weather}}</view>
       <view class='detail'>温度 :{{item.temperature}}</view>
       <view class='detail'>风力 :{{item.wind}}</view>

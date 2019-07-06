@@ -11,7 +11,6 @@
          first.setData({
            imagepath: res.tempFilePaths,
          })
-      
        }
      })
      

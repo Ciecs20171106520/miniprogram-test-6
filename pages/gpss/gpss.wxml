@@ -1,7 +1,13 @@
 <input calss = 'gpss1' bindinput="bindKeyInput1" placeholder="输入坐标经度"/>
 <input calss = 'gpss1' bindinput="bindKeyInput2" placeholder="输入坐标维度"/>
-<view><text>{{latitude}}</text></view>
-<view><text>{{longitude}}</text></view>
-<view><button bindtap='gpss1'>完成输入</button></view>
+<view>
+<text>{{latitude}}</text>
+</view>
+<view>
+<text>{{longitude}}</text>
+</view>
+<view>
+<button bindtap='gpss1'>完成输入</button>
+</view>
 
 

@@ -2,6 +2,7 @@ const app = getApp();
 var bmap = require("../../pages/libs/wxapp-jsapi-master/demo/libs/bmap-wx.min.js");
 Page({
   data: {
+    yifu:'',
     forecast :'',
     weatherData: ''
   },
@@ -17,13 +18,24 @@ Page({
       console.log(data)
       var weatherData = data.currentWeather[0];
       var forecast = new Array(3);
+      var yifu = new Array(4);
       for (var i = 0; i < 3; i++) {
         forecast[i] = data.originalData.results[0].weather_data[i + 1];
+      } for (var j = 0; j < 4; j++) {
+        yifu[j] = data.originalData.results[0].index[j + 1];
       }
-      weatherData = '城市：' + weatherData.currentCity + '\n' + 'PM2.5：' + weatherData.pm25 + '\n' + '日期：' + weatherData.date + '\n' + '温度：' + weatherData.temperature + '\n' + '天气：' + weatherData.weatherDesc + '\n' + '风力：' + weatherData.wind + '\n';
+      weatherData = '城市：' + 
+      weatherData.currentCity + '\n' 
+      + 'PM2.5：' + weatherData.pm25 +
+       '\n' + '日期：' + weatherData.date + 
+       '\n' + '温度：' + 
+       weatherData.temperature + 
+       '\n' + '天气：' + weatherData.weatherDesc +
+        '\n' + '风力：' + weatherData.wind + '\n';
       that.setData({
         weatherData: weatherData,
-        forecast: forecast
+        forecast: forecast,
+        yifu:yifu
       });
     }
     // 发起weather请求 

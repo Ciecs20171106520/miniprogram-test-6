@@ -17,5 +17,11 @@
 <navigator open-type='switchTab'   url="/pages/weather/weather"
  hover-class='nav-hover' class='nav-default'>
  点击进入本地天气情况界面</navigator>
-</view>
+ </view>
+  <view>
+ <text class='indextext1'>欢迎使用备忘录功能</text>
+<navigator open-type='switchTab'   url="/pages/texts/texts"
+ hover-class='nav-hover' class='nav-default'>
+ 点击备忘录上传界面</navigator>
+ </view>
 </view>
